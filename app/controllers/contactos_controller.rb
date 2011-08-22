@@ -1,4 +1,8 @@
 class ContactosController < ApplicationController
+
+  before_filter :authenticate_user!, :except => [:index, :show]
+
+
   # GET /contactos
   # GET /contactos.xml
   def index
