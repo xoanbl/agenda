@@ -45,7 +45,8 @@ class ContactosController < ApplicationController
   # POST /contactos.xml
   def create
     @contacto = Contacto.new(params[:contacto])
-
+#probando
+#askfejwiiwi
     respond_to do |format|
       if @contacto.save
         format.html { redirect_to(@contacto, :notice => 'Contacto was successfully created.') }
