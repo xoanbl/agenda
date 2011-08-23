@@ -16,6 +16,7 @@ class ContactosController < ApplicationController
 
   # GET /contactos/1
   # GET /contactos/1.xml
+  #aslfjeiieiejej
   def show
     @contacto = Contacto.find(params[:id])
 

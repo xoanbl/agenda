@@ -2,7 +2,7 @@ Agenda::Application.routes.draw do
   resources :contactos
 
   devise_for :users
-
+#añlsfjñaiefañei
     # Let's add the root route
 	  root :to => "home#index"
     
