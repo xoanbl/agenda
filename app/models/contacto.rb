@@ -4,7 +4,7 @@ class Contacto < ActiveRecord::Base
     before_create :init_devise_password
 
    
-
+# slffalfkaefjlkeaie
     def init_devise_password
         password = Devise.friendly_token[0,20]
     end
